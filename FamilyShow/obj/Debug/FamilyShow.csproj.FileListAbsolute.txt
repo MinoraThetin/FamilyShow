@@ -201,3 +201,6 @@ C:\Users\Ari\Documents\GitHub\WPF\FamilyShow\FamilyShow\obj\Debug\es-ES\FamilySh
 C:\Users\Ari\Documents\GitHub\WPF\FamilyShow\FamilyShow\obj\Debug\FamilyShow.csproj.CopyComplete
 C:\Users\Ari\Documents\GitHub\WPF\FamilyShow\FamilyShow\obj\Debug\FamilyShow.exe
 C:\Users\Ari\Documents\GitHub\WPF\FamilyShow\FamilyShow\obj\Debug\FamilyShow.pdb
+C:\Users\Ari\Documents\GitHub\WPF\FamilyShow\FamilyShow\bin\Debug\he-IL\FamilyShow.resources.dll
+C:\Users\Ari\Documents\GitHub\WPF\FamilyShow\FamilyShow\obj\Debug\Microsoft.FamilyShow.Properties.Resources.he-IL.resources
+C:\Users\Ari\Documents\GitHub\WPF\FamilyShow\FamilyShow\obj\Debug\he-IL\FamilyShow.resources.dll
