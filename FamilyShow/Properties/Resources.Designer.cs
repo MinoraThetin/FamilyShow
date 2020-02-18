@@ -2763,6 +2763,15 @@ namespace Microsoft.FamilyShow.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Red.
+        /// </summary>
+        public static string Red {
+            get {
+                return ResourceManager.GetString("Red", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Relationship.
         /// </summary>
         public static string Relationship {

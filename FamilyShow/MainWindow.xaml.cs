@@ -760,23 +760,28 @@ namespace Microsoft.FamilyShow
 
         private void ChangeTheme(object sender, RoutedEventArgs e)
         {
+            try
+            {
+                MenuItem item = (MenuItem)sender;
+                string theme = item.CommandParameter as string;
 
-            MenuItem item = (MenuItem)sender;
-            string theme = item.CommandParameter as string;
+                ResourceDictionary rd = new ResourceDictionary();
+                rd.MergedDictionaries.Add(Application.LoadComponent(new Uri(theme, UriKind.Relative)) as ResourceDictionary);
+                Application.Current.Resources = rd;
 
-            ResourceDictionary rd = new ResourceDictionary();
-            rd.MergedDictionaries.Add(Application.LoadComponent(new Uri(theme, UriKind.Relative)) as ResourceDictionary);
-            Application.Current.Resources = rd;
+                // Save the theme setting
+                appSettings.Theme = theme;
+                appSettings.Save();
 
-            // Save the theme setting
-            appSettings.Theme = theme;
-            appSettings.Save();
-
-            family.OnContentChanged();
-            PersonInfoControl.OnThemeChange();
-            UpdateStatus();
-            this.DiagramControl.TimeSlider.Value = DateTime.Now.Year;
-
+                family.OnContentChanged();
+                PersonInfoControl.OnThemeChange();
+                UpdateStatus();
+                this.DiagramControl.TimeSlider.Value = DateTime.Now.Year;
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
         }
 
         #endregion
@@ -1697,6 +1702,7 @@ namespace Microsoft.FamilyShow
         {
             MenuItem theme1 = new MenuItem();
             MenuItem theme2 = new MenuItem();
+            MenuItem theme3 = new MenuItem();
 
             theme1.Header = Properties.Resources.Black;
             theme1.CommandParameter = @"Themes\Black\BlackResources.xaml";
@@ -1706,8 +1712,13 @@ namespace Microsoft.FamilyShow
             theme2.CommandParameter = @"Themes\Silver\SilverResources.xaml";
             theme2.Click += new RoutedEventHandler(ChangeTheme);
 
+            theme3.Header = Properties.Resources.Red;
+            theme3.CommandParameter = @"Themes\Red\RedResources.xaml";
+            theme3.Click += new RoutedEventHandler(ChangeTheme);
+
             ThemesMenu.Items.Add(theme1);
             ThemesMenu.Items.Add(theme2);
+            ThemesMenu.Items.Add(theme3);
         }
 
         /// <summary>

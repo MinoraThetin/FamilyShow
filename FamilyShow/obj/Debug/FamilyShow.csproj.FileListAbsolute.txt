@@ -117,9 +117,6 @@ C:\Users\Ari\Documents\GitHub\WPF\FamilyShow\FamilyShow\bin\Debug\FamilyShowLib.
 C:\Users\Ari\Documents\GitHub\WPF\FamilyShow\FamilyShow\bin\Debug\WindowsFormsIntegration.dll
 C:\Users\Ari\Documents\GitHub\WPF\FamilyShow\FamilyShow\bin\Debug\FamilyShowLib.pdb
 C:\Users\Ari\Documents\GitHub\WPF\FamilyShow\FamilyShow\bin\Debug\FamilyShowLib.dll.config
-C:\Users\Ari\Documents\GitHub\WPF\FamilyShow\FamilyShow\bin\Debug\WPFToolkit.pdb
-C:\Users\Ari\Documents\GitHub\WPF\FamilyShow\FamilyShow\bin\Debug\WPFToolkit.Design.pdb
-C:\Users\Ari\Documents\GitHub\WPF\FamilyShow\FamilyShow\bin\Debug\WPFToolkit.VisualStudio.Design.pdb
 C:\Users\Ari\Documents\GitHub\WPF\FamilyShow\FamilyShow\bin\Debug\de-DE\FamilyShowLib.resources.dll
 C:\Users\Ari\Documents\GitHub\WPF\FamilyShow\FamilyShow\bin\Debug\en-GB\FamilyShowLib.resources.dll
 C:\Users\Ari\Documents\GitHub\WPF\FamilyShow\FamilyShow\bin\Debug\es-ES\FamilyShowLib.resources.dll
@@ -204,3 +201,4 @@ C:\Users\Ari\Documents\GitHub\WPF\FamilyShow\FamilyShow\obj\Debug\FamilyShow.pdb
 C:\Users\Ari\Documents\GitHub\WPF\FamilyShow\FamilyShow\bin\Debug\he-IL\FamilyShow.resources.dll
 C:\Users\Ari\Documents\GitHub\WPF\FamilyShow\FamilyShow\obj\Debug\Microsoft.FamilyShow.Properties.Resources.he-IL.resources
 C:\Users\Ari\Documents\GitHub\WPF\FamilyShow\FamilyShow\obj\Debug\he-IL\FamilyShow.resources.dll
+C:\Users\Ari\Documents\GitHub\WPF\FamilyShow\FamilyShow\obj\Debug\Themes\Red\RedResources.baml

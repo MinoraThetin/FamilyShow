@@ -1338,4 +1338,7 @@ A "contributor" is any person that distributes its contribution under this licen
     <value>20-39</value>
     <comment>If these age groups are changed update AgeGroup in Person.cs</comment>
   </data>
+  <data name="Red" xml:space="preserve">
+    <value>Red</value>
+  </data>
 </root>
