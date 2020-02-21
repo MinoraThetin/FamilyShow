@@ -4,16 +4,16 @@
 winexe
 C#
 .cs
-C:\Users\Ari\Documents\GitHub\WPF\FamilyShow\FamilyShow\obj\Debug\
+D:\VS2019\FamilyShow_GIT\FamilyShow\obj\Debug\
 Microsoft.FamilyShow
 none
 false
 DEBUG;TRACE
-C:\Users\Ari\Documents\GitHub\WPF\FamilyShow\FamilyShow\App.xaml
+D:\VS2019\FamilyShow_GIT\FamilyShow\App.xaml
 27-1515541405
 3-499229041
 511352962238
-22-576710618
+221738054007
 Themes\Red\RedResources.xaml;Controls\Welcome.xaml;Controls\AttachmentViewer.xaml;Controls\Places.xaml;Controls\Extract.xaml;Controls\DateCalculator.xaml;Controls\GedcomLocalization.xaml;Controls\Language.xaml;Controls\StoryViewer.xaml;Controls\Diagram\DiagramViewer.xaml;Controls\About.xaml;Controls\Merge.xaml;Controls\Statistics.xaml;Controls\Repositories.xaml;Controls\Sources.xaml;Controls\Html.xaml;Controls\Save.xaml;Controls\FamilyData\FamilyData.xaml;Controls\FamilyData\FilterText.xaml;Controls\FamilyData\Histogram.xaml;Controls\NewUserControl.xaml;Controls\PersonInfo.xaml;Controls\FamilyData\SharedBirthdays.xaml;Controls\FamilyData\TagCloud.xaml;Controls\PhotoViewer.xaml;MainWindow.xaml;Controls\Details.xaml;
 
 False
